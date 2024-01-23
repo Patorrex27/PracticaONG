@@ -1,1 +1,1 @@
-no va, pero tu madre si va pa mi cama Pd: Soy aaron carmona
+eres adoptado, porque llamas papá a alguien que no es tu padre, porque tu padre soy yo
