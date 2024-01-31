@@ -1,8 +1,12 @@
 .rectangulo_blanco{
     position: fixed;
-
+    background-color:whitesmoke;
+    width : 99%;
+    height: 15%;
 } 
 .barra1{
+    margin-top: 4%;
+    margin-right: 1em;
     text-align: right;
 }
 .barra1 a {
