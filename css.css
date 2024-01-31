@@ -1,0 +1,14 @@
+.rectangulo_blanco{
+    position: fixed;
+
+} 
+.barra1{
+    text-align: right;
+}
+.barra1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 1em;
+    
+  }
