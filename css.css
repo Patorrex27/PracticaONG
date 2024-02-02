@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .rectangulo_blanco{
     position: fixed;
     background-color:white;
@@ -21,13 +26,35 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+/*Rectangulo naranja*/
+
 .rectangulo_naranja
 {
-    background-color: orangered;
+    background-color: #ff6900;
+    width: 100%;
+    display: flex;
+    color: white;
 }
 
-.imagen_bebe
-{
-    max-width: 100%;
-    height: auto;
+.telefono{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+       
+}
+
+.contacta{
+    display: flex;
+    align-items: center;
+    border-right:1px white solid ;
+    border-left:1px white solid ;
+    margin-left: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.espacio{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
 }
