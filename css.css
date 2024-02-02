@@ -34,6 +34,7 @@
     width: 100%;
     display: flex;
     color: white;
+    
 }
 
 .telefono{
@@ -57,4 +58,19 @@
     display: flex;
     align-items: center;
     margin-left: 1%;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    border-right: 1px solid white;
+    padding-right: 2%;
+}
+
+.idiomas{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+
 }
