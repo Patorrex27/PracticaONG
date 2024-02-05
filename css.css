@@ -80,6 +80,7 @@
     align-items: center;
     border-bottom: 6px solid #FF6900;
     border-width: 0.1em;
+    line-height: 34px
 }
 
 .dentrodeltexto
@@ -90,6 +91,7 @@
     font-weight: 400;
     font-size: 1.8em;
     font-family: "Roboto", Sans-serif;
+    line-height: 34px
 }
 
 .segundoparrafo
@@ -100,6 +102,7 @@
     font-family: "Open Sans", Sans-serif;
     font-size: 1.5em;
     font-weight: 500;
+    line-height: 34px
 }
 .tercerparrafo
 {
@@ -110,6 +113,7 @@
     font-family: "Open Sans", Sans-serif;
     font-size: 1.3em;
     font-weight: 200;
+    line-height: 34px
 }
 
 .Texto2
@@ -118,6 +122,7 @@
     text-align: center;
     border-top: 6px solid #FF6900;
     border-width: 0.1em;
+    line-height: 34px
 }
 .dentrodeltexto2
 {
@@ -127,6 +132,7 @@
     font-size: 2em;
     font-weight: 600;
     font-family: "Open Sans", Sans-serif;
+    line-height: 34px
 }
 .segundoparrafo2
 {
@@ -136,4 +142,45 @@
     font-family: "Open Sans", Sans-serif;
     font-size: 1.3em;
     font-weight: 200;
+    line-height: 34px
+}
+.flexcontainer {
+    display: flex;
+    
+}
+
+.cubo_verde {
+    background-color: #6BC048;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    width: 33%;
+    font-size: 1.25rem;
+    line-height: 34px;
+    
+}
+
+.cubo_azul {
+    background-color:#5CD4E3;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    width: 33%;
+    font-size: 1.25rem;
+    line-height: 34px;
+    
+}
+
+.cubo_naranja {
+    background-color:#FF6900;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    width: 33%;
+    font-size: 1.25rem;
+    line-height: 34px;
+    
 }
