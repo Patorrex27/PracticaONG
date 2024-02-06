@@ -102,12 +102,10 @@
     line-height: 34px;
 
     font-size: 1.5em;
-<<<<<<< HEAD
+
     font-family: system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
-=======
-    font-family: 'Open Sans', sans-serif;
  
->>>>>>> 36e277a625f71ecada2bd1c59c013994014bcc97
+
 }
 
 .segundoparrafo
@@ -129,13 +127,8 @@
     text-align: center;
     font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.3em;
-<<<<<<< HEAD
     font-weight: 100;
-=======
-
-    font-weight: 200;
     line-height: 34px
->>>>>>> 36e277a625f71ecada2bd1c59c013994014bcc97
 }
 
 .Texto2
