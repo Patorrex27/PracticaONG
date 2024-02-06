@@ -12,6 +12,7 @@
     background-image: url(https://fcarreras.org/wp-content/uploads/2023/10/logo-es.png);
     background-repeat: no-repeat;
     background-size: contain;
+    justify-content: right;
 } 
 
 .imagen_bebe{
@@ -26,7 +27,7 @@
 .barra1 a {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 1empx;
     margin-left: 1em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
