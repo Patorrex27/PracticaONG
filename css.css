@@ -5,33 +5,59 @@
 
 .rectangulo_blanco{
     position: fixed;
-    display: flex;
     background-color:white;
     width : 100%;
     height: 15%;
+
     background-image: url(https://fcarreras.org/wp-content/uploads/2023/10/logo-es.png);
     background-repeat: no-repeat;
     background-size: contain;
-    justify-content: right;
 } 
 
 .imagen_bebe{
     align-items: center;
+}
 
-}
+
 .barra1{
-    margin-top: 3%;
-    margin-right: 20%;
+    margin-left: 20%;
     text-align: right;
+    display: flex;
 }
-.barra1 a {
+
+.barra1 div{
+    height: 99px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+
+
+.barra1 div a:hover{
+    color: #FF6900;
+    border-bottom: 4px #FF6900 solid;
+}
+
+.barra1 a{
     text-decoration: none;
     color: black;
-    font-size: 1em;
+    font-size: 16px;
     margin-left: 1em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    line-height: 100px;
 }
+
+.barra1 a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 100px;
+    color: #FF6900;
+}
+
+
 /*Rectangulo naranja*/
 
 .rectangulo_naranja
@@ -39,15 +65,20 @@
     background-color: #ff6900;
     width: 100%;
     display: flex;
-    color: white;
-    
+    color: white;    
 }
 
 .telefono{
     display: flex;
-    margin-left: 10%;
-    align-items: center;
-       
+    margin-left: 14%;
+    align-items: center;   
+}
+
+.telefono a{
+    display: flex;
+    align-items: center;    
+    text-decoration: none;
+    color: white;
 }
 
 .contacta{
@@ -60,26 +91,60 @@
     padding-left: 1%;
 }
 
+.contacta a{
+    display: flex;
+    align-items: center;    
+    text-decoration: none;
+    color: white;
+}
+
+
+
 .espacio{
     display: flex;
     align-items: center;
     margin-left: 1%;
 }
 
+.espacio a
+{
+    display: flex;
+    align-items: center;    
+    text-decoration: none;
+    color: white;
+}
+
+
 .buscador{
     display: flex;
     align-items: center;
-    margin-left: 40%;
+    margin-left: 32%;
     border-right: 1px solid white;
     padding-right: 2%;
+}
+
+.buscador a
+{
+    display: flex;
+    align-items: center;    
+    text-decoration: none;
+    color: white;
 }
 
 .idiomas{
     display: flex;
     align-items: center;
     margin-left: 2%;
-
 }
+
+.idiomas a{
+    display: flex;
+    align-items: center;    
+    text-decoration: none;
+    color: white;
+}
+
+/*Texto*/
 .Texto1
 {
     margin-top: 3em;
@@ -102,10 +167,8 @@
     line-height: 34px;
 
     font-size: 1.5em;
-
-    font-family: system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
  
-
 }
 
 .segundoparrafo
@@ -113,7 +176,7 @@
     margin-top: 2em;
     color: rgb(75, 63, 63);
     text-align: center;
-    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Open Sans", Sans-serif;
     font-size: 1.5em;
     font-weight: 500;
     line-height: 34px;
@@ -125,9 +188,11 @@
     margin-bottom: 2em;
     color: #25221b;
     text-align: center;
-    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 300;
     font-size: 1.3em;
-    font-weight: 100;
+
+    font-weight: 200;
     line-height: 34px
 }
 
@@ -150,7 +215,6 @@
 }
 .segundoparrafo2
 {
-    margin-bottom: 1.5em;
     margin-top: 1.5em;
     color: #25221b;
     text-align: center;
@@ -158,7 +222,6 @@
     font-size: 1.3em;
     font-weight: 200;
     line-height: 34px
-    
 }
 .flexcontainer {
     display: flex;
