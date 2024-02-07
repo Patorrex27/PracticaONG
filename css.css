@@ -265,10 +265,11 @@
 }
 
 footer {
-    background-color: #333;
+    background-color: #3E3E3E;
     color: #fff;
     padding: 20px 0;
     display: flex;
+    flex-direction: column;
 }
 
 .pie_de_pagina{
@@ -310,6 +311,7 @@ footer {
     font-size: 0.8rem;
     margin-left: 1.5rem;
 }
+
 
 
 
