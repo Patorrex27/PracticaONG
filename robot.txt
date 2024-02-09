@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /admin/
-Disallow: /public/
+Disallow: /private/
 Disallow: /secret-page.html
-Sistemap: http://www.PracticaONG.com
+
+Sitemap: https://PracticaONG.com/sitemap.xml
