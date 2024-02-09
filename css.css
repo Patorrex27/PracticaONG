@@ -8,10 +8,12 @@
     background-color:white;
     width : 100%;
     height: 15%;
-
     background-image: url(https://fcarreras.org/wp-content/uploads/2023/10/logo-es.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position-x: 10%;
+    background-position-Y: 20%;
+    background-size: 15%;
 } 
 
 .imagen_bebe{
@@ -20,7 +22,7 @@
 
 
 .barra1{
-    margin-left: 20%;
+    margin-left: 27%;
     text-align: right;
     display: flex;
 }
@@ -68,10 +70,22 @@
     color: white;    
 }
 
+.rectangulo_naranja a {
+    text-decoration: none;
+    color: white;
+}
+
 .telefono{
     display: flex;
     margin-left: 14%;
     align-items: center;   
+    padding: 10px;
+}
+
+.telefono img{
+    width: 20px;  
+    height: 20px;  
+
 }
 
 .telefono a{
@@ -89,6 +103,11 @@
     margin-left: 1%;
     padding-right: 1%;
     padding-left: 1%;
+}
+
+.contacta img{
+    width: 25px;  
+    height: 20px;  
 }
 
 .contacta a{
@@ -114,6 +133,11 @@
     color: white;
 }
 
+.espacio img{
+    width: 20px;  
+    height: 25px;  
+    margin-right: 7px;
+}
 
 .buscador{
     display: flex;
@@ -143,6 +167,7 @@
     text-decoration: none;
     color: white;
 }
+
 
 /*Texto*/
 .Texto1
@@ -362,7 +387,9 @@ footer {
     text-align: left;
     margin-left: 0;
     padding-left: 0;
-   }
+}
+
+
 
 /*Botones redes sociales*/
 
@@ -374,6 +401,12 @@ footer {
 .socialMedia{
     margin-left: 35%;
     margin-bottom: 2%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+.socialMedia a{
+    text-decoration: none;
+
 }
 
 .socialMedia a img{
@@ -387,7 +420,7 @@ footer {
 .footList ul{
     display: flex;
     list-style: none;
-    margin-left:30% ;
+    margin-left:32% ;
 }
 
 .footList ul li{
