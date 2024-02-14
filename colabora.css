@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/*Header*/
 .rectangulo_blanco{
     position: fixed;
     background-color:white;
@@ -166,4 +167,11 @@
     align-items: center;    
     text-decoration: none;
     color: white;
+}
+
+
+/*Imagen*/
+
+.imagencolabora img{
+   
 }
