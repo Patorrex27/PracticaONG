@@ -7,7 +7,6 @@
     position: fixed;
     background-color:white;
     width : 100%;
-    height: 15%;
     background-image: url(https://fcarreras.org/wp-content/uploads/2023/10/logo-es.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -16,29 +15,56 @@
     background-size: 15%;
 } 
 
-.imagen_bebe{
-    align-items: center;
-}
 
 
-.barra1{
+.barra1 ul{
     margin-left: 27%;
-    text-align: right;
     display: flex;
+    height: 100px;
+    list-style: none;
+
 }
 
-.barra1 div{
-    height: 99px;
-    margin-right: 1%;
-    margin-left: 1%;
+.barra1 li{
+    display: flex;
+    align-items: center;
+
+}
+.barra1 li a{
+    align-items: center;
+    padding: 10px;
+}
+
+
+.submenu .children{
+    display: none;
+    margin-left:0;
+    position: absolute;
+    top: 99px;
+    list-style:circle ;
+    background-color: white;
+    height: auto;
+    padding: 1px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.submenu .children li{
+   border: 1px gray solid;
 }
 
 
 
-.barra1 div a:hover{
-    color: #FF6900;
-    border-bottom: 4px #FF6900 solid;
+.submenu:hover .children {
+    display: flex;
+    flex-direction: column;
 }
+
+.submenu .children :hover{
+    background-color: lightslategray;
+}
+
+
+
 
 .barra1 a{
     text-decoration: none;
@@ -46,18 +72,9 @@
     font-size: 16px;
     margin-left: 1em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 100px;
 }
 
-.barra1 a:hover{
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    margin-left: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 100px;
-    color: #FF6900;
-}
+
 
 
 /*Rectangulo naranja*/
