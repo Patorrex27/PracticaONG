@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/*Header*/
 .rectangulo_blanco{
     position: fixed;
     background-color:white;
@@ -167,6 +168,7 @@
     text-decoration: none;
     color: white;
 }
+
 .formulario1, .formulario2, .formulario3, .form4, .chec {
     margin-bottom: 5px;
 }
@@ -197,4 +199,8 @@ margin: auto;
 .Pablo
 {
     margin: 5%;
+}
+
+.imagencolabora img{
+   
 }
