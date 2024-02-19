@@ -220,142 +220,169 @@ margin: auto;
 /*CARLOS*/
 
 
-.formulario_Carlos form{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-}
+    .formulario_Carlos form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
 
-.formulario_Carlos form div{
-    margin-bottom: 1%;
+    .formulario_Carlos form div{
+        margin-bottom: 1%;
 
-}
+    }
 
-.formulario_Carlos form input[type="text"], .formulario_Carlos form select {
-    width: 43%;
-    height: 50px;
-    margin: 1% 2%;
-    padding: 0px 6px;
-}
+    .formulario_Carlos form input[type="text"], .formulario_Carlos form select {
+        width: 43%;
+        height: 50px;
+        margin: 1% 2%;
+        padding: 0px 6px;
+    }
 
-.formulario_Carlos ::placeholder{
-    color: gray;
-}
+    .formulario_Carlos ::placeholder{
+        color: gray;
+    }
 
-/*PRIMERA PARTE*/
+   
+    /*PRIMERA PARTE*/
 
-.primera_parte{
-    display: flex;
+    .primera_parte{
+        display: flex;
+        
+
+    }
+
+    .primera_parte div, .segunda_parte div{
+    width: 50%;
+    margin: 0% 1%;
+    }
+
+    #telefono, #correo_electronico, #num_identification{
+        width: 95%;
+    }
+
+
+
+    /*SEGUNDA PARTE*/
+
+    .segunda_parte{
+        display: flex;
+
+    }
+
+    .segunda_parte .parte_izquierda{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+    }
+
+    .segunda_parte .parte_izquierda div{
+        margin: 1% 0; 
+    }
+
+    .segunda_parte .parte_izquierda div label{
+        font-size: 16px;
+    }
+
+    .segunda_parte .parte_derecha p{
+        margin-left: 2%;
+    }
+
+    /*TERCERA PARTE*/
+
+
+
+    .tercera_parte{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tercera_parte .direccion{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .tercera_parte .direccion input[type="text"],.tercera_parte .direccion select{
+    width: 21%;
+        margin: 0% 1%;
+    }
+
+    #Poblacion, #num_via{
+        margin-left: 3%;
+    }
+
+
+    /*CUARTA PARTE*/
+
+    .cuarta_parte{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1%;
+    }
+
+
+
+    .formaDePago{
+        display: flex;
+    }
+
+    .formaDePago p{
+        margin-top: 3%;
+    }
+
+    .terminos{
+        display: flex;
+        flex-direction: column;
+    }
+    .terminos div{
+        display: flex;
+    }
+
+    .terminos div input{
+        margin-right: 1%;
+    }
+
+    .politica_privacidad{
+        text-decoration: none;
+        color:#FF6900;
+    }
+
+    /*BOTON*/
+
+    .boton_Carlos {
+        margin: auto;
+    }
+
+    .boton_Carlos input{
+        border-radius: 0;
+        background-color: #FF6900;
+        font-size: 19px;
+        padding: 20px;
+    }
+
+
     
 
-}
-
-.primera_parte div, .segunda_parte div{
-   width: 50%;
-   margin: 0% 1%;
-}
-
-#telefono, #correo_electronico, #num_identification{
-    width: 95%;
-}
-
-
-
-/*SEGUNDA PARTE*/
-
-.segunda_parte{
+.formularioRuben{
     display: flex;
-
+    
 }
 
-.segunda_parte .parte_izquierda{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2%;
-}
-
-.segunda_parte .parte_izquierda div{
-    margin: 1% 0; 
-}
-
-.segunda_parte .parte_izquierda div label{
-    font-size: 16px;
-}
-
-.segunda_parte .parte_derecha p{
-    margin-left: 2%;
-}
-
-/*TERCERA PARTE*/
-
-
-
-.tercera_parte{
-    display: flex;
-    flex-direction: column;
-}
-
-.tercera_parte .direccion{
-    display: flex;
-    flex-direction: column;
-
-}
-
-.tercera_parte .direccion input[type="text"],.tercera_parte .direccion select{
-   width: 21%;
-    margin: 0% 1%;
-}
-
-#Poblacion, #num_via{
-    margin-left: 3%;
-}
-
-
-/*CUARTA PARTE*/
-
-.cuarta_parte{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1%;
-}
-
-
-
-.formaDePago{
-    display: flex;
-}
-
-.formaDePago p{
-    margin-top: 3%;
-}
-
-.terminos{
-    display: flex;
-    flex-direction: column;
-}
-.terminos div{
-    display: flex;
-}
-
-.terminos div input{
-    margin-right: 1%;
-}
-
-.politica_privacidad{
-    text-decoration: none;
-    color:#FF6900;
-}
-
-/*BOTON*/
-
-.boton_Carlos {
+.formulario1{
     margin: auto;
 }
+.formulario2{
+margin: auto;
+margin-top: 0%;
 
-.boton_Carlos input{
-    border-radius: 0;
-    background-color: #FF6900;
-    font-size: 19px;
-    padding: 20px;
+}
+.formulario1 form{
+    margin-bottom: 4%;
+}
+.formulario2 form{
+    margin-bottom: 8.5%;
+}
+.hacermesocio {
+    margin: auto;
 }
