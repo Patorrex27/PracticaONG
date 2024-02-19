@@ -204,3 +204,25 @@ margin: auto;
 .imagencolabora img{
    
 }
+.formularioRuben{
+    display: flex;
+    
+}
+
+.formulario1{
+   margin: auto;
+}
+.formulario2{
+margin: auto;
+margin-top: 0%;
+
+}
+.formulario1 form{
+    margin-bottom: 4%;
+}
+.formulario2 form{
+    margin-bottom: 8.5%;
+}
+.hacermesocio {
+    margin: auto; 
+}
