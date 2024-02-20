@@ -386,3 +386,136 @@ margin-top: 0%;
 .hacermesocio {
     margin: auto;
 }
+
+/*AARON*/
+
+
+.formulario_Aaron form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.formulario_Aaron form div{
+    margin-bottom: 1%;
+
+}
+
+.formulario_Aaron form input[type="text"], .formulario_Aaron form select {
+    width: 43%;
+    height: 50px;
+    margin: 1% 2%;
+    padding: 0px 6px;
+}
+
+.formulario_Aaron ::placeholder{
+    color: gray;
+}
+
+
+    .parte_uno{
+        display: flex;
+        
+
+    }
+
+    .parte_uno div, .parte_dos div{
+    width: 50%;
+    margin: 0% 1%;
+    }
+
+    #telefono, #correo_electronico, #num_identification{
+        width: 95%;
+    }
+
+
+    .parte_dos{
+        display: flex;
+
+    }
+
+    .parte_dos .izquierda{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+    }
+
+    .parte_dos .izquierda div{
+        margin: 1% 0; 
+    }
+
+    .parte_dos .izquierda div label{
+        font-size: 16px;
+    }
+
+    .parte_dos .derecha p{
+        margin-left: 2%;
+    }
+
+    .parte_tres{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parte_tres .direccion{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .parte_tres .direccion input[type="text"],.parte_tres .direccion select{
+    width: 21%;
+        margin: 0% 1%;
+    }
+
+    #Poblacion, #num_via{
+        margin-left: 3%;
+    }
+
+    .parte_cuatro{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1%;
+    }
+
+
+
+    .formaDePago{
+        display: flex;
+    }
+
+    .formaDePago p{
+        margin-top: 3%;
+    }
+
+    .terminos{
+        display: flex;
+        flex-direction: column;
+    }
+    .terminos div{
+        display: flex;
+    }
+
+    .terminos div input{
+        margin-right: 1%;
+    }
+
+    .politica_privacidad{
+        text-decoration: none;
+        color:#FF6900;
+    }
+
+
+    .boton_aaron {
+        margin: auto;
+    }
+
+    .boton_aaron input{
+        border-radius: 0;
+        background-color: #FF6900;
+        font-size: 19px;
+        padding: 20px;
+    }
+
+
